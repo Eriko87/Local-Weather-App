@@ -32,7 +32,7 @@ body {
 #temp {
     font-size: 70px;
     text-align: right;
-    margin-left:40px;
+    margin-left:60px;
 }
 
 #f {
@@ -77,4 +77,5 @@ h5 {
         height: 100vh;
         margin: 30px auto;
     }
+    
 }

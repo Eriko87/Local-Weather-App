@@ -42,8 +42,9 @@
                         var imageicon
                         if (icon == 800) {
                             imageicon = "/img/800.svg"
-                        }
-                         else if (icon > 800) {
+                        } else if (icon == 802 || icon == 803 || icon == 801) {
+                            imageicon = "img/802.svg"
+                        } else if (icon = 804) {
                             imageicon = "img/801.svg"
                         } else if (icon > 700) {
                             imageicon = "img/700.svg"

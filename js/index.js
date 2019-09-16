@@ -41,17 +41,17 @@
                             imageicon = "/img/800.svg"
                         }
                          else if (icon > 800) {
-                            imageicon = "/img/801.svg"
+                            imageicon = "img/801.svg"
                         } else if (icon > 700) {
-                            imageicon = "/img/700.svg"
+                            imageicon = "img/700.svg"
                         } else if (icon > 600) {
-                            imageicon = "/img/600.svg"
+                            imageicon = "img/600.svg"
                         } else if (icon > 500) {
-                            imageicon = "/img/500.svg"
+                            imageicon = "img/500.svg"
                         } else if (icon > 300) {
-                            imageicon = "/img/300.svg"
+                            imageicon = "img/300.svg"
                         } else {
-                            imageicon = "/img/200.svg"
+                            imageicon = "img/200.svg"
                         } 
                         
                         //add data to HTML

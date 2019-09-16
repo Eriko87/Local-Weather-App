@@ -64,3 +64,10 @@ i {
 h5{
     margin-top:-10px;
 }
+
+@media only screen and (max-width: 600px) {
+    #container {
+        border: none;
+        margin: 100px auto;
+    }
+}

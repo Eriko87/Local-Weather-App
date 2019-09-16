@@ -12,7 +12,7 @@
                 fetch(url)
                     .then(function (resp) { return resp.json() }) // Convert data to json
                     .then(function (data) {
-                        
+                        console.log(data)
                         // today's date
                         var today = new Date();
                         var yy = today.getFullYear();

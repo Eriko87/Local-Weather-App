@@ -20,6 +20,9 @@
                         var mm = today.getMonth() + 1; 
                         var hh = today.getHours();
                         var min = today.getMinutes();
+                        if (min < 10) {
+                            min = "0"+ min
+                        }
                         var day = today.getDay();
                         var dayname = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
                         var monthname = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]

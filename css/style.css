@@ -1,0 +1,66 @@
+body {
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    background: rgb(114, 130, 203);
+    background: linear-gradient(180deg, rgba(114, 130, 203, 1) 0%, rgba(54, 182, 150, 1) 79%, rgba(54, 218, 156, 1) 100%);
+    text-align: center;
+}
+
+#container {
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 2%;
+}
+
+#location-info {
+    padding: 20px;
+}
+
+#date {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+#weather-display {
+    display: flex;
+    padding: 0px 20px;
+}
+
+#temp {
+    font-size: 70px;
+}
+
+#f {
+    font-size: 30px;
+    text-align: center;
+}
+
+.weather-box {
+    width: 30%;
+    margin: auto;
+}
+
+#descriptiondisplay {
+    padding: 0px 20px 20px 20px;
+}
+
+#description {
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+}
+
+#additionalinfo {
+    display: flex;
+}
+
+#additionalinfo div {
+    margin: auto;
+}
+
+i {
+    font-size: 50px;
+}
+h5{
+    margin-top:-10px;
+}

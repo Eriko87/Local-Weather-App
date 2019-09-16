@@ -64,9 +64,7 @@
                         document.getElementById("wind").innerHTML = Math.round(wind) + "ml/h"
                         document.getElementById("temp").innerHTML = Math.round(temp);
                         document.getElementById("description").innerHTML = weather;
-                        var elem = document.createElement("img");
-                        elem.setAttribute("src", imageicon);
-                        document.getElementById("weather-icon").appendChild(elem);
+                        document.getElementById("weather-icon").setAttribute("xlink:href", imageicon);
                     })
                     .catch(function () {
                         console.log("catch")
